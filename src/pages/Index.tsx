@@ -137,7 +137,7 @@ const WeddingInvitation = () => {
           </p>
 
           <div className="flex justify-center gap-3">
-            {["#7BAE7F", "#808A5A", "#E8D5CC", "#D4C3A3", "#C9B99A", "#2C2C2C"].map((color, i) => (
+            {["#7BAE7F", "#808A5A", "#E8D5CC", "#D4C3A3", "#2C2C2C"].map((color, i) => (
               <div
                 key={i}
                 className="w-10 h-10 rounded-full border border-border/60 shadow-sm"
