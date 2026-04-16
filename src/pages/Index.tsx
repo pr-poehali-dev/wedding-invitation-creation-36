@@ -7,6 +7,7 @@ const WeddingInvitation = () => {
     attendance: "",
     guests: "1",
     menu: "",
+    drinks: [] as string[],
     message: "",
   });
   const [submitted, setSubmitted] = useState(false);
@@ -252,6 +253,41 @@ const WeddingInvitation = () => {
                             onClick={() => setForm({ ...form, menu: opt.value })}
                           >
                             {form.menu === opt.value && (
+                              <Icon name="Check" size={10} className="text-background" />
+                            )}
+                          </div>
+                          <span className="font-body text-sm text-foreground">{opt.label}</span>
+                        </label>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="font-body text-xs tracking-widest uppercase text-muted-foreground block mb-3">
+                      Предпочтения по напиткам
+                    </label>
+                    <div className="space-y-3">
+                      {[
+                        { value: "wine", label: "Вино" },
+                        { value: "champagne", label: "Шампанское" },
+                        { value: "cognac", label: "Коньяк" },
+                        { value: "strong", label: "Другой крепкий алкоголь" },
+                      ].map((opt) => (
+                        <label key={opt.value} className="flex items-center gap-3 cursor-pointer group">
+                          <div
+                            className={`w-4 h-4 border flex items-center justify-center transition-all shrink-0 ${
+                              form.drinks.includes(opt.value)
+                                ? "border-foreground bg-foreground"
+                                : "border-border group-hover:border-foreground/50"
+                            }`}
+                            onClick={() => {
+                              const updated = form.drinks.includes(opt.value)
+                                ? form.drinks.filter((d) => d !== opt.value)
+                                : [...form.drinks, opt.value];
+                              setForm({ ...form, drinks: updated });
+                            }}
+                          >
+                            {form.drinks.includes(opt.value) && (
                               <Icon name="Check" size={10} className="text-background" />
                             )}
                           </div>
