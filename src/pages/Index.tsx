@@ -36,7 +36,7 @@ const WeddingInvitation = () => {
           </p>
 
           <h1 className="animate-fade-up-delay-1 font-display text-7xl md:text-8xl font-light leading-none mb-2">
-            Александр
+            Максим
           </h1>
           <div className="animate-fade-up-delay-1 flex items-center justify-center gap-4 my-4">
             <div className="divider-gold w-20" />
@@ -44,14 +44,14 @@ const WeddingInvitation = () => {
             <div className="divider-gold w-20" />
           </div>
           <h1 className="animate-fade-up-delay-1 font-display text-7xl md:text-8xl font-light leading-none mb-10">
-            Мария
+            Дарья
           </h1>
 
           <p className="animate-fade-up-delay-2 font-body text-sm tracking-[0.2em] uppercase text-muted-foreground mb-2">
-            14 июня 2025
+            11 сентября 2026
           </p>
           <p className="animate-fade-up-delay-2 font-display text-xl italic text-foreground/70">
-            Москва, Россия
+            Орёл, Россия
           </p>
         </div>
 
@@ -69,7 +69,7 @@ const WeddingInvitation = () => {
             дата и время
           </p>
           <h2 className="font-display text-5xl md:text-6xl font-light mb-10">
-            14 июня 2025
+            11 сентября 2026
           </h2>
 
           <div className="grid grid-cols-2 gap-8 max-w-sm mx-auto">
@@ -78,14 +78,14 @@ const WeddingInvitation = () => {
                 <Icon name="Clock" size={18} className="text-gold" />
               </div>
               <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mb-1">Сбор гостей</p>
-              <p className="font-display text-2xl">16:00</p>
+              <p className="font-display text-2xl">14:30</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 rounded-full border border-[hsl(var(--gold)/0.4)] flex items-center justify-center mx-auto mb-3">
                 <Icon name="Sparkles" size={18} className="text-gold" />
               </div>
               <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mb-1">Церемония</p>
-              <p className="font-display text-2xl">17:00</p>
+              <p className="font-display text-2xl">15:00</p>
             </div>
           </div>
           <div className="divider-gold mt-12" />
@@ -100,10 +100,10 @@ const WeddingInvitation = () => {
               место проведения
             </p>
             <h2 className="font-display text-4xl md:text-5xl font-light mb-3">
-              Ресторан «Белая ночь»
+              Ресторан «Центральный»
             </h2>
             <p className="font-display italic text-xl text-foreground/60">
-              Банкетный зал «Зимний сад»
+              Банкетный зал
             </p>
           </div>
 
@@ -113,13 +113,7 @@ const WeddingInvitation = () => {
             </div>
             <div>
               <p className="font-body font-medium text-foreground mb-1">
-                г. Москва, ул. Пречистенка, 17
-              </p>
-              <p className="font-body text-sm text-muted-foreground">
-                Ближайшее метро — Кропоткинская (5 минут пешком)
-              </p>
-              <p className="font-body text-sm text-muted-foreground mt-1">
-                Парковка доступна на территории — бесплатно
+                г. Орёл, ул. Ленина, 39
               </p>
             </div>
           </div>
@@ -330,10 +324,10 @@ const WeddingInvitation = () => {
       <footer className="py-12 px-6 text-center">
         <p className="font-display italic text-3xl text-foreground/40 mb-2">С любовью,</p>
         <p className="font-display text-2xl font-light text-foreground/60">
-          Александр & Мария
+          Максим & Дарья
         </p>
         <p className="font-body text-xs tracking-widest uppercase text-muted-foreground/50 mt-6">
-          14 · 06 · 2025
+          11 · 09 · 2026
         </p>
       </footer>
 
