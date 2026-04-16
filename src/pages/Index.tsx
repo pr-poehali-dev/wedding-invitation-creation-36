@@ -48,10 +48,19 @@ const WeddingInvitation = () => {
             Дарья
           </h1>
 
-          <p className="animate-fade-up-delay-2 font-body text-sm tracking-[0.2em] uppercase text-muted-foreground mb-2">
+          {/* Photo */}
+          <div className="animate-fade-up-delay-2 mx-auto mb-8 w-52 h-64 md:w-60 md:h-72 overflow-hidden rounded-sm border border-border/40 shadow-md">
+            <img
+              src="https://cdn.poehali.dev/projects/31cd5a93-4b9e-43a7-b4ec-a72c954ccd9b/bucket/6789154d-972e-40ec-a62e-2bd0284c08fa.jpg"
+              alt="Максим и Дарья"
+              className="w-full h-full object-cover object-top"
+            />
+          </div>
+
+          <p className="animate-fade-up-delay-3 font-body text-sm tracking-[0.2em] uppercase text-muted-foreground mb-2">
             11 сентября 2026
           </p>
-          <p className="animate-fade-up-delay-2 font-display text-xl italic text-foreground/70">
+          <p className="animate-fade-up-delay-3 font-display text-xl italic text-foreground/70">
             Орёл, Россия
           </p>
         </div>
