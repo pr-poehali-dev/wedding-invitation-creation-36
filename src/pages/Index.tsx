@@ -160,7 +160,7 @@ const WeddingInvitation = () => {
               Будете ли вы?
             </h2>
             <p className="font-body text-sm text-muted-foreground">
-              Просим подтвердить участие до 1 июня 2025
+              Просим подтвердить участие до 25 августа 2026
             </p>
           </div>
 
