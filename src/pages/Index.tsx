@@ -146,37 +146,7 @@ const WeddingInvitation = () => {
         </div>
       </section>
 
-      {/* Gifts */}
-      <section className="py-20 px-6 bg-secondary/40">
-        <div className="max-w-2xl mx-auto text-center">
-          <p className="font-body text-xs tracking-[0.35em] uppercase text-muted-foreground mb-4">
-            пожелания по подаркам
-          </p>
-          <h2 className="font-display text-4xl md:text-5xl font-light mb-6">
-            Подарочный реестр
-          </h2>
-          <p className="font-body text-base text-muted-foreground leading-relaxed max-w-md mx-auto mb-10">
-            Лучшим подарком для нас будет ваше присутствие. Если вы всё же хотите нас порадовать —
-            мы составили небольшой список желаний или будем рады вкладу в наш «фонд путешествий».
-          </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-left">
-            {[
-              { icon: "Gift", title: "Реестр подарков", desc: "Список в магазине «Цвет диванов» — попросите карточку у организатора" },
-              { icon: "Plane", title: "Фонд путешествий", desc: "Мы мечтаем о свадебном путешествии в Японию — ваш вклад поможет осуществить мечту" },
-              { icon: "Heart", title: "Ваше пожелание", desc: "Напишите нам тёплые слова — это будет самым ценным подарком" },
-            ].map((item, i) => (
-              <div key={i} className="bg-card border border-border rounded-sm p-5">
-                <div className="w-10 h-10 rounded-full border border-[hsl(var(--gold)/0.4)] flex items-center justify-center mb-3">
-                  <Icon name={item.icon as "Gift"} size={16} className="text-gold" />
-                </div>
-                <p className="font-body font-medium text-sm mb-2">{item.title}</p>
-                <p className="font-body text-sm text-muted-foreground leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* RSVP */}
       <section className="py-24 px-6">
