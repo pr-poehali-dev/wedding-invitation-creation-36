@@ -127,9 +127,6 @@ const WeddingInvitation = () => {
           <p className="font-body text-xs tracking-[0.35em] uppercase text-muted-foreground mb-4">
             дресс-код
           </p>
-          <h2 className="font-display text-4xl md:text-5xl font-light mb-6">
-            Торжественный Garden Party
-          </h2>
           <p className="font-body text-base text-muted-foreground leading-relaxed max-w-md mx-auto mb-10">
             Мы будем рады видеть вас в нарядах цветовой гаммы — зелёных, оливковых,
             пудровых и бежевых оттенков. Белый цвет просим зарезервировать для невесты.
